@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: lightgray;
+    text-align: center;
+}
+
+.header h1{
+    font-family: cursive;
+    font-weight: lighter;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 5rem 0;
+}
+
+.box-1, .box-2, .box-3, .box-4{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 2rem;
+}
+
+.inputandbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.inputandbutton > .inputuser input{
+    padding: 0.5rem;
+}
+
+.button button{
+    padding: 0.5rem 1rem;   
+}
